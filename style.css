@@ -1,0 +1,26 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.container {
+  background-color: rgb(255, 253, 253);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn {
+  /* background-color: rgb(229, 134, 134); */
+  background: linear-gradient(45deg, red, rgb(89, 209, 125),#8938e6);
+  border: 1px 1px solid black;
+
+  padding: 20px 30px;
+  border-radius: 10px;
+  color: rgb(2, 0, 0);
+  cursor: pointer;
+  transition: 0.4s;
+}
+.btn:active {
+  transform: scale(0.9);
+}
